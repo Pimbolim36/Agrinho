@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-de-fundo: #12254d;
+    --cor-letra: #ffffff;
+}
+
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho{
+    background-color: #12254d;
+    color:var(--cor-letra);
+    height: 200px;
+}
+.titulo-principal{
+    font-size: 50px;
+    text-align: center;
+}
